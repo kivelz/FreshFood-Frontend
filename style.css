@@ -1,130 +1,77 @@
 body
 {
-    font-family: 'Frank Ruhl Libre', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html
 {
-   
-    font-size: 12px;
+    color: black;
 }
-.jumbotron
+#sidebarnav ul
 {
-    background-image: url('./banner02.jpg');
-    border-radius: 20px;
-    background-size: cover;
-   
-    height: 350px;
-}
-.jumbotron h1{
-    color: #fff;
-    text-align: center;
-}
-.sidebar
-{
+    line-height: 2.9;
+    margin-top: 30px;
+    text-decoration: none;
     list-style: none;
-    font-size: 13px;
-    background-color: #343a40;
-    text-decoration: none;
+    color: #fff;
+    height: 100%;
 }
-.sidebar a{
-    color: white;
-    text-decoration: none;
-}
-#sidebarnav{
-    background-color: #343a40;
-    text-decoration: none;
-}
-.sidebar li
+#sidebarnav ul a
 {
-    color: white;
-    
-    
+    color: #fff;
 }
-.img-box
+.mainheader
 {
-    width: 170px;
-    height: 170px;
-    background-color: #fff;
-    border: 1px solid black;
-    font-size: 12px;
+    width: 100%;
+    height: 350px;
+    background-image: url('./Banner02.jpg');
+    background-size: cover; 
+    background-position: top center;
+    border-radius: 20px;
 }
-.fa-clock
+.deliverybanner
 {
-    color: rgba(232, 10, 80, 0.863);
+    margin-top: 20px;
 }
-.bannerbox img
+.deliverybanner:nth-child(1)
 {
-    width: 550px;
-    padding: 0 0;
+    padding-right: 0;
 }
-.col-md-6
+.deliverybanner:nth-child(2)
 {
-    padding: 0;
-}
-.category-title
-{
-    text-align: center;
-}
-.fa-shopping-cart
-{
-    font-size: 20px;
-}
-.badge
-{
-    background-color: red;
-}
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
-}
-input[type=number]
-{
-    width: 40px;
-    height: 25px;
-}
-#querybar
-{
-    width: 300px;
-}
-.sidebar li 
-{
-    line-height: 2.7;
-}
-.status span
-{
-    background-color: #606163;
-    border-color: #069dcf;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 5%;
-    font-size: 10px;
-}
-h5
-{
-    font-size: 14px;
-}
-input[type=search]
-{
-    margin: 0 90px;
-}
-footer
-{
-
-    height: 150px;
-}
-
-footer ul li
-{
-    list-style-type: none;
+    padding-left: 0;
 }
 .card
 {
-    border-radius: 5px;
+    border: none;
 }
-footer
+legend
 {
-    margin: 0 auto;
+    padding: 20px 20px;
+}
+#sidebarnav ul li a
+{
+    color: black;
+    text-decoration: none;
+    text-decoration: slategray;
+}
+#sidebarnav ul li a:hover
+{
+    transition: 0.2s;
+    color: red;
+}
+.img-thumbnail
+{
+    height: 300px;
+    transition: 0.5s;
+}
+.img-thumbnail:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#querybar
+{
+    width: 700px;
 }
