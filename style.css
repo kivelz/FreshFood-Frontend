@@ -1,0 +1,130 @@
+body
+{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+html
+{
+   
+    font-size: 12px;
+}
+.jumbotron
+{
+    background-image: url('./banner02.jpg');
+    border-radius: 20px;
+    background-size: cover;
+   
+    height: 350px;
+}
+.jumbotron h1{
+    color: #fff;
+    text-align: center;
+}
+.sidebar
+{
+    list-style: none;
+    font-size: 13px;
+    background-color: #343a40;
+    text-decoration: none;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+#sidebarnav{
+    background-color: #343a40;
+    text-decoration: none;
+}
+.sidebar li
+{
+    color: white;
+    
+    
+}
+.img-box
+{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.fa-clock
+{
+    color: rgba(232, 10, 80, 0.863);
+}
+.bannerbox img
+{
+    width: 550px;
+    padding: 0 0;
+}
+.col-md-6
+{
+    padding: 0;
+}
+.category-title
+{
+    text-align: center;
+}
+.fa-shopping-cart
+{
+    font-size: 20px;
+}
+.badge
+{
+    background-color: red;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=number]
+{
+    width: 40px;
+    height: 25px;
+}
+#querybar
+{
+    width: 300px;
+}
+.sidebar li 
+{
+    line-height: 2.7;
+}
+.status span
+{
+    background-color: #606163;
+    border-color: #069dcf;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5%;
+    font-size: 10px;
+}
+h5
+{
+    font-size: 14px;
+}
+input[type=search]
+{
+    margin: 0 90px;
+}
+footer
+{
+
+    height: 150px;
+}
+
+footer ul li
+{
+    list-style-type: none;
+}
+.card
+{
+    border-radius: 5px;
+}
+footer
+{
+    margin: 0 auto;
+}
