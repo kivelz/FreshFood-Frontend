@@ -1,69 +1,111 @@
 <!DOCTYPE html>
 
-<!--[if gt IE 8]><!--> <html > <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
-        </head>
-    <body>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-5">
-                    <a class="navbar-brand" href="#"><img src="https://i.ibb.co/bKQ43hr/Logo01.png" alt="" style="width:  50px;"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Help</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Categories
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Promotions</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item mx-auto">
-                            <form class="form-inline my-2 my-lg-0 mx-auto">
-                                <input class="form-control mx-auto" id="querybar" type="search" placeholder="Products, productname" aria-label="Search" size="35">
-                              </form>
-                        </li>
-                      </ul>
-                      <ul class="nav navbar-nav navbar-left">
-                            <a class ="nav-link status" href="#"> <span style="color:#ffffff">Login</span></a>
-                         <a class ="nav-link status" href="#"> <span style="color:#ffffff">Register</span></a>
-                      </ul>
-                    </div>
-                  </nav>
-                  <div class="container" style="padding: 100px 200px;">
-                        <form>
-                                <div class="form-group">
-                                  <label for="exampleInputEmail1">Email address</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  </div>
-                                <div class="form-group">
-                                  <label for="exampleInputPassword1">Password</label>
-                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Register</button>
-                              </form>
-                  </div>
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
 
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="authstyle.css">
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-5">
+    <a class="navbar-brand" href="#"><img src="https://i.ibb.co/bKQ43hr/Logo01.png" alt="" style="width:  50px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+
+        <li class="nav-item mx-auto">
+          <form class="form-inline my-2 my-lg-0 mx-auto">
+            <input class="form-control mx-auto" id="querybar" type="search" placeholder="Products, productname"
+              aria-label="Search" size="35">
+          </form>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <a class="nav-link status" href="#"> <span style="color:#ffffff">Login</span></a>
+        <a class="nav-link status" href="#"> <span style="color:#ffffff">Register</span></a>
+      </ul>
+    </div>
+  </nav>
+  <div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+      <div class="user_card">
+        <div class="d-flex justify-content-center">
+          <div class="brand_logo_container">
+            <img src="./img/avatar.png" class='brand_logo' alt="logo">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center form_container">
+          <form class="form-signin" action="/users/login" id="form-signin" method="POST">
+            <div class="input-group mb-3">
+              <div class="input-group-append">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+              </div>
+              <label for="email" class="sr-only">Email address</label>
+              <input type="email" id="email" name="email" class="form-control input_user required email loginEmail"
+                value="" placeholder="Email address" required>
+            </div>
+            <div class="input-group mb-2">
+              <div class="input-group-append">
+                <span class="input-group-text"><i class="fas fa-key"></i></span>
+              </div>
+              <label for="password" class="sr-only">Password</label>
+              <input type="password" id="password" name="password" class="form-control input_pass" value="" placeholder="Password"
+                required>
+            </div>
+
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                <label class="custom-control-label" for="customControlInline">Remember me</label>
+              </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center mt-3 login_container">
+          <button type="submit" name="button" class="btn login_btn">Login</button>
+        </div>
+        </form>
+        <div class="d-flex justify-content-center my-3">
+          <a href="auth/facebook/login"><img src="./img/fbloginbtn.png" style="width: 250px; height: 46px; border-radius:5px;"
+              alt="facebook login button"></a>
+        </div>
+        <div class="mt-4">
+          <div class="d-flex justify-content-center links">
+            Don't have an account? <a href="/users/register" class="ml-2">Sign Up</a>
+          </div>
+          <div class="d-flex justify-content-center links">
+            <a href="/users/forget">Forgot your password?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
