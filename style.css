@@ -8,6 +8,10 @@ html
 {
     color: black;
 }
+.card-body
+{
+    height: 10px;
+}
 #sidebarnav ul
 {
     line-height: 2.9;
@@ -38,10 +42,7 @@ html
 {
     padding-right: 0;
 }
-.deliverybanner:nth-child(2)
-{
-    padding-left: 0;
-}
+
 .card
 {
     border: none;
@@ -74,4 +75,8 @@ legend
 #querybar
 {
     width: 700px;
+}
+.categorybox
+{
+    overflow: hidden;
 }
